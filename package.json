@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "mocha -V"
+    "test": "mocha -V",
+    "db:schema": "node ./utils/schema",
+    "db:seed": "node ./utils/seed",
+    "db:setup": "npm run db:schema; npm run db:seed"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -13,6 +16,7 @@
     "express": "~4.13.1",
     "mocha": "^2.3.2",
     "morgan": "~1.6.1",
-    "nodemon": "^1.5.1"
+    "nodemon": "^1.5.1",
+    "sqlite3": "^3.1.0"
   }
 }

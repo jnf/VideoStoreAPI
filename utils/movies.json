@@ -1,0 +1,602 @@
+[
+    {
+        "title": "Psycho",
+        "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
+        "release_date": "1960-06-16",
+        "inventory": 8
+    },
+    {
+        "title": "Jaws",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-19",
+        "inventory": 6
+    },
+    {
+        "title": "The Exorcist",
+        "overview": "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.",
+        "release_date": "1973-12-26",
+        "inventory": 7
+    },
+    {
+        "title": "North by Northwest",
+        "overview": "Madison Avenue advertising man Roger Thornhill finds himself thrust into the world of spies when he is mistaken for a man by the name of George Kaplan. Foreign spy Philip Vandamm and his henchman Leonard try to eliminate him but when Thornhill tries to make sense of the case, he is framed for murder. Now on the run from the police, he manages to board the 20th Century Limited bound for Chicago where he meets a beautiful blond, Eve Kendall, who helps him to evade the authorities. His world is turned upside down yet again when he learns that Eve isn't the innocent bystander he thought she was. Not all is as it seems however, leading to a dramatic rescue and escape at the top of Mt. Rushmore.",
+        "release_date": "1959-07-17",
+        "inventory": 10
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "overview": "FBI trainee Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. Unfortunately, her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-14",
+        "inventory": 3
+    },
+    {
+        "title": "Alien",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "inventory": 4
+    },
+    {
+        "title": "The Birds",
+        "overview": "Chic socialite Melanie Daniels enjoys a passing flirtation with an eligible attorney in a San Francisco pet shop and, on an impulse, follows him to his hometown bearing a gift of lovebirds. But upon her arrival, the bird population runs amok. Suddenly, the townsfolk face a massive avian onslaught, with the feathered fiends inexplicably attacking people all over Bodega Bay.",
+        "release_date": "1963-03-28",
+        "inventory": 1
+    },
+    {
+        "title": "The French Connection",
+        "overview": "A pair of NYC cops in the Narcotics Bureau stumble onto a drug smuggling job with a French connection.",
+        "release_date": "1971-10-07",
+        "inventory": 8
+    },
+    {
+        "title": "Rosemary's Baby",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "inventory": 2
+    },
+    {
+        "title": "Raiders of the Lost Ark",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "inventory": 9
+    },
+    {
+        "title": "The Godfather",
+        "overview": "The story spans the years from 1945 to 1955 and chronicles the fictional Italian-American Corleone crime family. When organized crime family patriarch Vito Corleone barely survives an attempt on his life, his youngest son, Michael, steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-15",
+        "inventory": 5
+    },
+    {
+        "title": "King Kong",
+        "overview": "An adventure film about a film crew in search of a monster on a remote island. The crew finds King Kong and decides to take him back to New York as a money making spectacle. The film is a masterpiece of Stop-Motion in filmmaking history and inspired a line of King Kong films.",
+        "release_date": "1933-03-02",
+        "inventory": 10
+    },
+    {
+        "title": "Bonnie and Clyde",
+        "overview": "Bonnie and Clyde is based on the true stories of the gangster pair Bonnie Parker and Clyde Barrow who in the 1930s began robbing banks in U.S. cities until they were eventually killed. The film is a major landmark in the aesthetic movement known as the New Hollywood.",
+        "release_date": "1967-08-04",
+        "inventory": 4
+    },
+    {
+        "title": "Rear Window",
+        "overview": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+        "release_date": "1954-08-01",
+        "inventory": 10
+    },
+    {
+        "title": "Deliverance",
+        "overview": "The Cahulawassee River valley in Northern Georgia is one of the last natural pristine areas of the state, which will soon change with the imminent building of a dam on the river, which in turn will flood much of the surrounding land. As such, four Atlanta city slickers - alpha male Lewis Medlock, generally even-keeled Ed Gentry, slightly condescending Bobby Trippe, and wide-eyed Drew Ballinger - decide to take a multi-day canoe trip on the river, which turns into a trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "inventory": 2
+    },
+    {
+        "title": "Chinatown",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "inventory": 6
+    },
+    {
+        "title": "The Manchurian Candidate",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "inventory": 1
+    },
+    {
+        "title": "Vertigo",
+        "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+        "release_date": "1958-05-28",
+        "inventory": 10
+    },
+    {
+        "title": "The Great Escape",
+        "overview": "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocates them to a high-security \"escape-proof\" camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.",
+        "release_date": "1963-07-04",
+        "inventory": 4
+    },
+    {
+        "title": "High Noon",
+        "overview": "High Noon is about a recently freed leader of a gang of bandits in the desert who is looking to get revenge on the Sheriff who put him in jail. A legendary western film from the Austrian director Fred Zinnemann.",
+        "release_date": "1952-07-24",
+        "inventory": 4
+    },
+    {
+        "title": "A Clockwork Orange",
+        "overview": "The head of a gang of toughs, in an insensitive futuristic society, is conditioned to become physically ill at sex and violence during a prison sentence. When he is released, he's brutally beaten by all of his old adversaries.",
+        "release_date": "1971-12-18",
+        "inventory": 4
+    },
+    {
+        "title": "Taxi Driver",
+        "overview": "Robert De Niro stars as Travis Bickle in this oppressive psychodrama about a Vietnam veteran who rebels against the decadence and immorality of big city life in New York while working the nightshift as a taxi driver.",
+        "release_date": "1976-02-08",
+        "inventory": 4
+    },
+    {
+        "title": "Lawrence of Arabia",
+        "overview": "Lawrence of Arabia is the classic film from David Lean starring Peter O’Toole and based on the autobiography from Thomas Edward Lawrence who during the first World War was on assignment by the British Empire in Arabia. The film would become a cult classic and is known today as a masterpiece.",
+        "release_date": "1962-12-10",
+        "inventory": 6
+    },
+    {
+        "title": "Double Indemnity",
+        "overview": "Unsuspecting Mr. Dietrichson becomes increasingly accident prone after his icily calculating wife encourages him to sign a double indemnity policy proposed by a smooth-talking insurance agent. Against a backdrop of distinctly California settings, the partners in crime plan the perfect murder to collect the insurance. Perfect until a claims manager gets a familiar feeling of foul play and pursues the matter relentlessly.",
+        "release_date": "1944-04-24",
+        "inventory": 5
+    },
+    {
+        "title": "Titanic",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-12-19",
+        "inventory": 5
+    },
+    {
+        "title": "The Maltese Falcon",
+        "overview": "Spade and Archer is the name of a San Francisco detective agency. That's for Sam Spade and Miles Archer. The two men are partners, but Sam doesn't like Miles much. A knockout, who goes by the name of Miss Wanderly, walks into their office; and by that night everything's changed. Miles is dead. And so is a man named Floyd Thursby. It seems Miss Wanderly is surrounded by dangerous men. There's Joel Cairo, who uses gardenia-scented calling cards. There's Kasper Gutman, with his enormous girth and feigned civility. Her only hope of protection comes from Sam, who is suspected by the police of one or the other murder. More murders are yet to come.",
+        "release_date": "1941-11-18",
+        "inventory": 2
+    },
+    {
+        "title": "Star Wars: Episode IV - A New Hope",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "inventory": 2
+    },
+    {
+        "title": "Fatal Attraction",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "inventory": 8
+    },
+    {
+        "title": "The Shining",
+        "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
+        "release_date": "1980-05-22",
+        "inventory": 3
+    },
+    {
+        "title": "The Deer Hunter",
+        "overview": "A group of working-class friends decides to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return.",
+        "release_date": "1978-12-08",
+        "inventory": 4
+    },
+    {
+        "title": "Close Encounters of the Third Kind",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "inventory": 3
+    },
+    {
+        "title": "Strangers on a Train",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-30",
+        "inventory": 9
+    },
+    {
+        "title": "The Fugitive",
+        "overview": "Dr. Richard Kimble, unjustly accused of murdering his wife, must find the real killer while being the target of a nationwide manhunt.",
+        "release_date": "1993-08-06",
+        "inventory": 9
+    },
+    {
+        "title": "The Night of the Hunter",
+        "overview": "Harry Powell marries and murders widows for their money, believing he is helping God do away with women who arouse men's carnal instincts. Arrested for auto theft, he shares a cell with condemned killer Ben Harper and tries to get him to reveal the whereabouts of the $10,000 he stole. Only Ben's nine-year-old son, John, and four-year-old daughter, Pearl, know the money is in Pearl's doll; and they have sworn to their father to keep this secret. After Ben is executed, Preacher goes to Cresap's Landing to court Ben's widow, Willa. When he overwhelms her with his Scripture quoting, sermons, and hymns, she agrees to marry him. On their wedding night, he tells her they will never have sex because it is sinful.",
+        "release_date": "1955-07-26",
+        "inventory": 9
+    },
+    {
+        "title": "Jurassic Park",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-08",
+        "inventory": 4
+    },
+    {
+        "title": "Bullitt",
+        "overview": "Bullitt is an American action thriller from director Peter Yates from 1968. Steven Mcqueen plays the leading role as a mafia-chasing police officer who must protect a valuable witness. The film’s ten minute high speed pursuit is legendary.",
+        "release_date": "1968-10-17",
+        "inventory": 8
+    },
+    {
+        "title": "Casablanca",
+        "overview": "Casablanca is a classic and one of the most revered films of all time. Starring Humphrey Bogart and Ingrid Bergman in a love triangle in the city of Casablanca which is a refuge for many fleeing foreigners looking for a new life during the war. Political romance with a backdrop of war conflict between democracy and totalitarianism. A landmark in film history.",
+        "release_date": "1942-11-26",
+        "inventory": 8
+    },
+    {
+        "title": "Notorious",
+        "overview": "Released shortly after the war, this classic Hitchcock film illustrates the battle between German Nazis and American spies in Rio de Janeiro where a German businessman keeps a wine cellar with uranium ore.",
+        "release_date": "1946-08-15",
+        "inventory": 1
+    },
+    {
+        "title": "Die Hard",
+        "overview": "NYPD cop John McClane's plan to reconcile with his estranged wife, Holly, is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of pitiless terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-14",
+        "inventory": 4
+    },
+    {
+        "title": "2001: A Space Odyssey",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-05",
+        "inventory": 7
+    },
+    {
+        "title": "Dirty Harry",
+        "overview": "When a madman dubbed the \"Scorpio Killer\" terrorizes San Francisco, hard-boiled cop Harry Callahan -- famous for his take-no-prisoners approach to law enforcement -- is tasked with hunting down the psychopath. Harry eventually collars Scorpio in the process of rescuing a kidnap victim, only to see him walk on technicalities. Now, the maverick detective is determined to nail the maniac himself.",
+        "release_date": "1971-12-22",
+        "inventory": 4
+    },
+    {
+        "title": "The Terminator",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "inventory": 7
+    },
+    {
+        "title": "The Wizard of Oz",
+        "overview": "One of the most famous musical films and the first film from Hollywood to use color. Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-25",
+        "inventory": 1
+    },
+    {
+        "title": "E.T. the Extra-Terrestrial",
+        "overview": "A science fiction fairytale about an extra-terrestrial who is left behind on Earth and is found by a young boy who befriends him. This heart-warming fantasy from Director Steven Spielberg became one of the most commercially successful films of all time.",
+        "release_date": "1982-06-11",
+        "inventory": 2
+    },
+    {
+        "title": "Saving Private Ryan",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "inventory": 2
+    },
+    {
+        "title": "Carrie",
+        "overview": "Carrie may be ostracized, but the shy teen has the ability to move objects with her mind. So when the high school \"in crowd\" torments her with a sick joke at the prom, she lashes out with devastating -- and deadly -- power.",
+        "release_date": "1976-11-03",
+        "inventory": 3
+    },
+    {
+        "title": "Invasion of the Body Snatchers",
+        "overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.",
+        "release_date": "1956-02-05",
+        "inventory": 1
+    },
+    {
+        "title": "Dial M for Murder",
+        "overview": "An ex-tennis pro carries out a plot to have his wife murdered after discovering she is having an affair, and assumes she will soon leave him for the other man anyway. When things go wrong, he improvises a new plan - to frame her for murder instead.",
+        "release_date": "1954-05-29",
+        "inventory": 6
+    },
+    {
+        "title": "Ben-Hur",
+        "overview": "Ben-Hur is a 1959 epic film directed by William Wyler, the third film version of Lew Wallace's 1880 novel Ben-Hur: A Tale of the Christ. It premiered at Loew's State Theatre in New York City on November 18, 1959. The film went on to win a record of eleven Academy Awards, including Best Picture, a feat equaled only by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004. It was also the last film to win the Oscar for both Best Actor and Best Supporting Actor, until nearly 44 years later when Mystic River achieved the same feat.The movie revolves around a Jewish prince who is betrayed and sent into slavery by a Roman friend and how he regains his freedom and comes back for revenge.",
+        "release_date": "1959-11-18",
+        "inventory": 5
+    },
+    {
+        "title": "Marathon Man",
+        "overview": "A graduate student and obsessive runner in New York is drawn into a mysterious plot involving his brother, a member of the secretive Division. This film, famous for its excruciating \"Is it safe?\" torture scene by a Nazi dentist, is a spy classic with an all star cast.",
+        "release_date": "1976-10-06",
+        "inventory": 1
+    },
+    {
+        "title": "Raging Bull",
+        "overview": "An emotionally self-destructive boxer's journey through life, as the violence and temper that leads him to the top in the ring, destroys his life outside it.",
+        "release_date": "1980-11-14",
+        "inventory": 2
+    },
+    {
+        "title": "Rocky",
+        "overview": "When world heavyweight boxing champ Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers pick palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark.",
+        "release_date": "1976-11-21",
+        "inventory": 10
+    },
+    {
+        "title": "Pulp Fiction",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-10-14",
+        "inventory": 10
+    },
+    {
+        "title": "Butch Cassidy and the Sundance Kid",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever, talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot \"Sundance Kid\".  As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "inventory": 5
+    },
+    {
+        "title": "Wait Until Dark",
+        "overview": "After a flight back home, Sam Hendrix returns with a doll he innocently acquired along the way. As it turns out, the doll is actually stuffed with heroin, and a group of criminals led by the ruthless Roat has followed Hendrix back to his place to retrieve it. When Hendrix leaves for business, the crooks make their move -- and find his blind wife, Susy, alone in the apartment. Soon, a life-threatening game begins between Susy and the thugs.",
+        "release_date": "1967-10-26",
+        "inventory": 6
+    },
+    {
+        "title": "Frankenstein",
+        "overview": "Henry Frankenstein is a doctor who is trying to discover a way to make the dead walk. He succeeds and creates a monster that has to deal with living again.",
+        "release_date": "1931-11-21",
+        "inventory": 8
+    },
+    {
+        "title": "All the President's Men",
+        "overview": "In the run-up to the 1972 elections, Washington Post reporter Bob Woodward covers what seems to be a minor break-in at the Democratic Party National headquarters. He is surprised to find top lawyers already on the defense case, and the discovery of names and addresses of Republican fund organizers on the accused further arouses his suspicions. The editor of the Post is prepared to run with the story and assigns Woodward and Carl Bernstein to it. They find the trail leading higher and higher in the Republican Party, and eventually into the White House itself.",
+        "release_date": "1976-04-04",
+        "inventory": 4
+    },
+    {
+        "title": "The Bridge on the River Kwai",
+        "overview": "A classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson , the commander who supervised the bridge's construction, has acquired a sense of pride in his creation and tries to foil their plans.",
+        "release_date": "1957-10-02",
+        "inventory": 9
+    },
+    {
+        "title": "Planet of the Apes",
+        "overview": "Taylor and two other astronauts come out of deep hibernation to find that their ship has crashed. Escaping with little more than clothes they find that they have landed on a planet where men are pre-lingual and uncivilized while apes have learned speech and technology. Taylor is captured and taken to the city of the apes after damaging his throat so that he is silent and cannot communicate with the apes.",
+        "release_date": "1968-02-07",
+        "inventory": 10
+    },
+    {
+        "title": "The Sixth Sense",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-02",
+        "inventory": 6
+    },
+    {
+        "title": "Cape Fear",
+        "overview": "Sam Bowden, witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady stalks Bowden and his family but is always clever enough not to violate the law. Bowden enlists the aid of a local police chief, a private detective and then hires thugs to harass Cady all to no avail. The film climaxes pitting Bowden and his family against Cady.",
+        "release_date": "1962-04-12",
+        "inventory": 3
+    },
+    {
+        "title": "Spartacus",
+        "overview": "Spartacus is a 1960 American historical drama film directed by Stanley Kubrick and based on the novel of the same name by Howard Fast about the historical life of Spartacus and the Third Servile War. The film stars Kirk Douglas as the rebellious slave Spartacus who leads a violent revolt against the decadent Roman empire. The film was awarded four Oscars and stands today as one of the greatest classics of the Sword and Sandal genre.",
+        "release_date": "1960-10-06",
+        "inventory": 4
+    },
+    {
+        "title": "What Ever Happened to Baby Jane?",
+        "overview": "Two aging film actresses live as virtual recluses in an old Hollywood mansion. Jane Hudson, a successful child star, cares for her crippled sister Blanche, whose career in later years eclipsed that of Jane. Now the two live together, their relationship affected by simmering subconscious thoughts of mutual envy, hate and revenge.",
+        "release_date": "1962-10-31",
+        "inventory": 7
+    },
+    {
+        "title": "Touch of Evil",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "inventory": 5
+    },
+    {
+        "title": "The Dirty Dozen",
+        "overview": "Classic World War II action drama about a group of 12 American military prisoners, who are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "inventory": 10
+    },
+    {
+        "title": "The Matrix",
+        "overview": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a malevolent hacker known as Neo, who finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker, who reveals the shocking truth about our reality.",
+        "release_date": "1999-03-30",
+        "inventory": 1
+    },
+    {
+        "title": "The Treasure of the Sierra Madre",
+        "overview": "Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.",
+        "release_date": "1948-01-24",
+        "inventory": 4
+    },
+    {
+        "title": "Halloween",
+        "overview": "A psychotic murderer institutionalized since childhood for the murder of his sister, escapes and stalks a bookish teenage girl and her friends while his doctor chases him through the streets.",
+        "release_date": "1978-10-25",
+        "inventory": 4
+    },
+    {
+        "title": "The Wild Bunch",
+        "overview": "Aging outlaw Pike Bishop (William Holden) prepares to retire after one final robbery. Joined by his gang, which includes Dutch Engstrom (Ernest Borgnine) and brothers Lyle (Warren Oates) and Tector Gorch (Ben Johnson), Bishop discovers the heist is a setup orchestrated in part by his old partner, Deke Thornton (Robert Ryan). As the remaining gang takes refuge in Mexican territory, Thornton trails them, resulting in fierce gunfights with plenty of casualties",
+        "release_date": "1969-06-17",
+        "inventory": 2
+    },
+    {
+        "title": "Dog Day Afternoon",
+        "overview": "A man robs a bank to pay for his lover's operation; it turns into a hostage situation and a media circus.",
+        "release_date": "1975-09-21",
+        "inventory": 9
+    },
+    {
+        "title": "Goldfinger",
+        "overview": "Bond is in Miami on holiday when M tells him to observe Auric Goldfinger. Bond steals Goldfinger's girlfriend, Jill Masterson, but after being knocked out, he awakes to find her dead and covered in gold paint. Upon returning to London, Bond is told to further investigate Goldfinger who is believed to be smuggling gold out of Britain, but warned he will be replaced if he turns the mission into a personal vendetta. After failing to befriend Goldfinger, Bond is caught spying and taken to America as a captive. Bond learns of Goldfinger's plan, codenamed Operation Grand Slam, which involves attacking Fort Knox to increase his gold riches. Can 007 find a way to stop Goldfinger despite being held prisoner? This is the third film from the legendary James Bond series starring Sean Connery as the British super agent.",
+        "release_date": "1964-09-17",
+        "inventory": 1
+    },
+    {
+        "title": "Platoon",
+        "overview": "Chris Taylor, a young, naive recruit in Vietnam, faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "release_date": "1986-12-18",
+        "inventory": 1
+    },
+    {
+        "title": "Laura",
+        "overview": "A police detective falls in love with the woman whose murder he's investigating.",
+        "release_date": "1944-10-11",
+        "inventory": 5
+    },
+    {
+        "title": "Blade Runner",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to kill a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "inventory": 9
+    },
+    {
+        "title": "The Third Man",
+        "overview": "An American pulp writer arrives in post-WWII Vienna only to find that the friend who waited for him is killed under mysterious circumstances. The ensuing mystery entangles him in his friend's involvement in the black market, with the multinational police, and with his Czech girlfriend.",
+        "release_date": "1949-08-31",
+        "inventory": 9
+    },
+    {
+        "title": "Thelma & Louise",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "inventory": 4
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "inventory": 1
+    },
+    {
+        "title": "Gaslight",
+        "overview": "In the late 19th century, Paula Alquist is studying music in Italy, but ends up abandoning her classes because she's fallen in love with the gallant Gregory Anton. The couple marries and moves to England to live in a home inherited by Paula from her aunt, herself a famous singer, who was mysteriously murdered in the house ten years before. Once they have moved in, Gregory, who is in reality a jewel thief and the murderer of Paula's aunt, launches a campaign of terror designed to drive his new bride insane. Though Paula is certain that she sees the house's gaslights dim every evening and that there are strange noises coming from the attic, Gregory convinces Paula that she's imagining things. Gregory's efforts to make Paula unstable are aided by an impertinent maid, Nancy. Meanwhile, a Scotland Yard inspector, Brian Cameron, becomes suspicious of Gregory and sympathetic to Paula's plight.",
+        "release_date": "1944-05-04",
+        "inventory": 8
+    },
+    {
+        "title": "The Magnificent Seven",
+        "overview": "The Magnificent Seven is a western film from John Sturges and a remake of the Akira Kurosawa's film The Seven Samurai from 1954.",
+        "release_date": "1960-10-23",
+        "inventory": 10
+    },
+    {
+        "title": "Rebecca",
+        "overview": "A self-conscious bride is tormented by the memory of her husband's dead first wife.",
+        "release_date": "1940-04-12",
+        "inventory": 3
+    },
+    {
+        "title": "The Omen",
+        "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil. A classic horror film with Gregory Peck from 1976.",
+        "release_date": "1976-06-25",
+        "inventory": 1
+    },
+    {
+        "title": "The Day the Earth Stood Still",
+        "overview": "An alien and a robot land on earth after World War II and tell mankind to be peaceful or face destruction. A classic science fiction film from Robert Wise with an exceptional message.",
+        "release_date": "1951-09-17",
+        "inventory": 4
+    },
+    {
+        "title": "The Phantom of the Opera",
+        "overview": "A grotesquely disfigured composer known as the \"Phantom\" haunts Paris' opera house, where he's secretly grooming Christine Daae to be an opera diva. Luring her to his underground lair, the Phantom declares his love. But Christine loves Raoul de Chagny and plans to elope with him after her next performance. When the Phantom finds out, he abducts Christine, incurring the wrath of Raoul -- and a horde of rabid Parisians.",
+        "release_date": "1925-09-06",
+        "inventory": 4
+    },
+    {
+        "title": "Poltergeist",
+        "overview": "Craig T. Nelson stars as Steve Freeling, the main protagonist, who lives with his wife, Diane, (JoBeth Williams) and their three children, Dana (Dominique Dunne), Robbie (Oliver Robins), and Carol Anne (Heather O'Rourke), in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, a tree comes alive and takes Robbie through his bedroom window, and Carol Anne is abducted by ghosts. Realizing that something evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh (Beatrice Straight) to investigate, hoping to get Carol Anne back, so he can remove his family from the house before it's too late.",
+        "release_date": "1982-06-04",
+        "inventory": 4
+    },
+    {
+        "title": "Dracula",
+        "overview": "The legend of vampire Count Dracula begins here with this original 1931 Dracula film from Bela Lugosi.",
+        "release_date": "1931-02-12",
+        "inventory": 9
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "overview": "Dorian Gray, wishing to remain young and handsome for eternity, essentially sells his soul so that a portrait can age instead of him. Over the course of the years, Dorian commits every sort of sin, heavily influenced by his friend Lord Henry Wotton. But as his life goes on, he slowly realises the emptiness and evil which he has succumbed to.",
+        "release_date": "1945-03-01",
+        "inventory": 8
+    },
+    {
+        "title": "The Thing from Another World",
+        "overview": "Scientists and American Air Force officials fend off a blood-thirsty alien organism while at a remote arctic outpost.",
+        "release_date": "1951-04-29",
+        "inventory": 10
+    },
+    {
+        "title": "12 Angry Men",
+        "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+        "release_date": "1957-04-10",
+        "inventory": 9
+    },
+    {
+        "title": "The Guns of Navarone",
+        "overview": "A team of allied saboteurs are assigned an impossible mission: infiltrate an impregnable Nazi-held island and destroy the two enormous long-range field guns that prevent the rescue of 2,000 trapped British soldiers.",
+        "release_date": "1961-06-22",
+        "inventory": 3
+    },
+    {
+        "title": "The Poseidon Adventure",
+        "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+        "release_date": "1972-12-12",
+        "inventory": 3
+    },
+    {
+        "title": "Braveheart",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, legendary Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "inventory": 9
+    },
+    {
+        "title": "Body Heat",
+        "overview": "In the midst of a searing Florida heat wave, a woman convinces her lover, a small-town lawyer, to murder her rich husband.",
+        "release_date": "1981-08-28",
+        "inventory": 5
+    },
+    {
+        "title": "Night of the Living Dead",
+        "overview": "A group of people try to survive an attack of bloodthirsty zombies while trapped in a rural Pennsylvania farmhouse. Although not the first zombie film, Night of the Living Dead is the progenitor of the contemporary \"zombie apocalypse\" horror film, and it greatly influenced the modern pop-culture zombie archetype.",
+        "release_date": "1968-10-01",
+        "inventory": 9
+    },
+    {
+        "title": "The China Syndrome",
+        "overview": "While doing a series of reports on alternative energy sources, an opportunistic reporter Kimberly Wells witnesses an accident at a nuclear power plant. Wells is determined to publicise the incident but soon finds herself entangled in a sinister conspiracy to keep the full impact of the incident a secret.",
+        "release_date": "1979-03-16",
+        "inventory": 4
+    },
+    {
+        "title": "Full Metal Jacket",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-05-31",
+        "inventory": 3
+    },
+    {
+        "title": "Blue Velvet",
+        "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of criminals who have kidnapped her child.",
+        "release_date": "1986-08-01",
+        "inventory": 7
+    },
+    {
+        "title": "Safety Last!",
+        "overview": "When a store clerk organizes a contest to climb the outside of a tall building, circumstances force him to make the perilous climb himself.",
+        "release_date": "1923-04-01",
+        "inventory": 6
+    },
+    {
+        "title": "Blood Simple",
+        "overview": "A rich but jealous man hires a private investigator to kill his cheating wife and her new man. But, when blood is involved, nothing is simple.",
+        "release_date": "1984-09-07",
+        "inventory": 4
+    },
+    {
+        "title": "Speed",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "inventory": 10
+    },
+    {
+        "title": "The Adventures of Robin Hood",
+        "overview": "Robin Hood (Errol Flynn) fights nobly for justice against the evil Sir Guy of Gisbourne (Basil Rathbone) while striving to win the hand of the beautiful Maid Marian (Olivia de Havilland).",
+        "release_date": "1938-05-14",
+        "inventory": 3
+    }
+]
