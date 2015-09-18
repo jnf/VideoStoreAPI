@@ -14,7 +14,8 @@ describe("Movie", function() {
         "BEGIN; \
         DELETE FROM movies; \
         INSERT INTO movies(title, overview, release_date, inventory) \
-        VALUES('Jaws', 'Shark!', 'Yesterday', 10); \
+        VALUES('Jaws', 'Shark!', 'Yesterday', 10), \
+              ('Maws', 'Worm!', 'Yesterday', 11); \
         COMMIT;"
         , function(err) {
           db_cleaner.close();
@@ -71,7 +72,7 @@ describe("Movie", function() {
       }
 
       movie.create(data, function(err, res) {
-        assert.equal(res.inserted_id, 2); //it inserted a new record
+        assert.equal(res.inserted_id, 3); //it inserted a new record
         assert.equal(res.changed, 1); //one record was changed
 
         movie.find_by("title", "RoboJaws", function(err, res) {
