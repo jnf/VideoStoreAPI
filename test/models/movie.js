@@ -2,8 +2,6 @@ var assert = require('assert'),
     Movie  = require('../../models/movie'),
     sqlite3 = require('sqlite3').verbose();
 
-
-
 describe("Movie", function() {
   var movie, db_cleaner
 
@@ -30,14 +28,9 @@ describe("Movie", function() {
     assert(movie instanceof Movie);
   })
 
-  it("has a database connection", function() {
-    assert.notEqual(movie.db, undefined);
-    assert(movie.db instanceof sqlite3.Database);
-  })
-
   describe("instance methods", function() {
     it("can find a movie by title", function(done) {
-      movie.find("Jaws", function(err, res) {
+      movie.find_by("title", "Jaws", function(err, res) {
         assert.equal(err, undefined);
         assert(res instanceof Array);
         assert.equal(res.length, 1);
@@ -47,10 +40,9 @@ describe("Movie", function() {
     })
 
     it("can save changes to a movie", function(done) {
-      movie.find("Jaws", function(err, res) {
+      movie.find_by("title", "Jaws", function(err, res) {
         var original_title = res[0].title;
         var id = res[0].id;
-
         movie.save({title: "Jaws 2: Jawsier", id: id}, function(err, res) {
           assert.equal(err, undefined);
           assert.equal(res.inserted_id, 0); //it didn't insert any records
@@ -72,7 +64,7 @@ describe("Movie", function() {
         assert.equal(res.inserted_id, 2); //it inserted a new record
         assert.equal(res.changed, 1); //one record was changed
 
-        movie.find("RoboJaws", function(err, res) {
+        movie.find_by("title", "RoboJaws", function(err, res) {
           assert.equal(res.length, 1);
           assert.equal(res[0].title, 'RoboJaws'); //we found our new movie
           done();
