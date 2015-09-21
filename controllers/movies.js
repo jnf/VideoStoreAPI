@@ -15,6 +15,16 @@ Controller.prototype = {
         response.status(200).json(result);
       }
     })
+  },
+
+  show: function(request, response, next) {
+    new Movie().find_by('title', request.params.title, function(error, result) {
+      if (error) {
+        response.status(500).json(error);
+      } else {
+        response.status(200).json(result);
+      }
+    })
   }
 }
 
