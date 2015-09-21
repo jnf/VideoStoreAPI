@@ -36,11 +36,10 @@ describe("Endpoints under /movies", function() {
 
     it("returns an array of movie objects", function(done) {
       movie_request.expect(200, function(error, result) {
-        console.log(result.body);
         assert.equal(result.body.length, 2); //the db_cleaner inserted two records
 
-        var keys = ['title', 'overview', 'release_date', 'inventory'];
-        assert.equal(Object.keys(result.body[0]), keys);
+        var keys = ['id', 'title', 'overview', 'release_date', 'inventory'];
+        assert.deepEqual(Object.keys(result.body[0]), keys);
         done();
       })
     })
