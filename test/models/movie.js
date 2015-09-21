@@ -30,6 +30,19 @@ describe("Movie", function() {
   })
 
   describe("instance methods", function() {
+    it("can find all movies", function(done) {
+      movie.all(function(err, res) {
+        assert.equal(err, undefined);
+        assert(res instanceof Array);
+        assert.equal(res.length, 2); //jaws and maws
+
+        assert.equal(res[0].title, 'Jaws');
+        assert.equal(res[1].title, 'Maws');
+
+        done();
+      })
+    })
+
     it("can find a movie by id", function(done){
       movie.find_by("id", 1, function(err, res) {
         assert.equal(err, undefined);
