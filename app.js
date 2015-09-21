@@ -13,6 +13,7 @@ app.use(cookieParser());
 
 var routes = require('./routes/index');
 app.use('/', routes);
+app.use('/movies', require('./routes/movies'))
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
