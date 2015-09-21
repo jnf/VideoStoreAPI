@@ -1,30 +1,23 @@
-"user strict";
+"use strict";
 
-var Movie = require('../models/movie')
+var Movie = require('../models/movie');
 
-function Controller() {
-
-}
-
-Controller.prototype = {
+var Controller = {
   index: function(request, response, next) {
-    new Movie().all(function(error, result) {
-      if (error) {
-        response.status(500).json(error);
-      } else {
-        response.status(200).json(result);
-      }
-    })
+    new Movie().all(Controller.send_json.bind(response))
   },
 
   show: function(request, response, next) {
-    new Movie().find_by('title', request.params.title, function(error, result) {
-      if (error) {
-        response.status(500).json(error);
-      } else {
-        response.status(200).json(result);
-      }
-    })
+    new Movie().find_by('title', request.params.title,
+                        Controller.send_json.bind(response));
+  },
+
+  send_json: function(error, result) {
+    if (error) {
+      this.status(500).json(error);
+    } else {
+      this.status(200).json(result);
+    } 
   }
 }
 

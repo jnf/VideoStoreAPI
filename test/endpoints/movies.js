@@ -27,7 +27,7 @@ describe("Endpoints under /movies", function() {
     var movie_request;
     
     beforeEach(function(done) {
-      movie_request = request(app).get('/movies').set('Accept', 'application/json');
+      movie_request = agent.get('/movies').set('Accept', 'application/json');
       done();
     })
 
@@ -52,7 +52,7 @@ describe("Endpoints under /movies", function() {
     var movie_request;
 
     beforeEach(function(done) {
-      movie_request = request(app).get('/movies/Jaws').set('Accept', 'application/json');
+      movie_request = agent.get('/movies/Jaws').set('Accept', 'application/json');
       done();
     })
 
