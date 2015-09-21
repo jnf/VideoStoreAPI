@@ -3,7 +3,7 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
   res.status(200)
-     .json({});
+     .json([{why: 'woo'}]);
 });
 
 module.exports = router;
