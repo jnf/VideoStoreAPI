@@ -15,7 +15,10 @@ describe("Movie", function() {
         DELETE FROM movies; \
         INSERT INTO movies(title, overview, release_date, inventory) \
         VALUES('Jaws', 'Shark!', 'Yesterday', 10), \
-              ('Maws', 'Worm!', 'Yesterday', 11); \
+              ('Maws', 'Worm!', 'Yesterday', 11), \
+              ('Claws', 'Cat!', 'Yesterday', 12), \
+              ('Paws', 'Bear!', 'Yesterday', 13), \
+              ('Gauze', 'Ouch!', 'Yesterday', 14); \
         COMMIT;"
         , function(err) {
           db_cleaner.close();
@@ -34,10 +37,23 @@ describe("Movie", function() {
       movie.all(function(err, res) {
         assert.equal(err, undefined);
         assert(res instanceof Array);
-        assert.equal(res.length, 2); //jaws and maws
+        assert.equal(res.length, 5); //jaws maws claws paws gauze
 
         assert.equal(res[0].title, 'Jaws');
         assert.equal(res[1].title, 'Maws');
+
+        done();
+      })
+    })
+
+    it("can find some of the movies", function(done) {
+      movie.some(2, 3, function(error, result) {
+        assert.equal(error, undefined);
+        assert(result instanceof Array);
+        assert.equal(result.length, 2); //paws gauze
+
+        assert.equal(result[0].title, 'Paws');
+        assert.equal(result[1].title, 'Gauze');
 
         done();
       })
@@ -85,7 +101,7 @@ describe("Movie", function() {
       }
 
       movie.create(data, function(err, res) {
-        assert.equal(res.inserted_id, 3); //it inserted a new record
+        assert.equal(res.inserted_id, 6); //it inserted a new record
         assert.equal(res.changed, 1); //one record was changed
 
         movie.find_by("title", "RoboJaws", function(err, res) {
