@@ -12,11 +12,11 @@ describe("Endpoints under /movies", function() {
         "BEGIN; \
         DELETE FROM movies; \
         INSERT INTO movies(title, overview, release_date, inventory) \
-        VALUES('Jaws', 'Shark!', 'Yesterday', 10), \
-              ('Maws', 'Worm!', 'Yesterday', 11), \
-              ('Claws', 'Cat!', 'Yesterday', 12), \
-              ('Paws', 'Bear!', 'Yesterday', 13), \
-              ('Gauze', 'Ouch!', 'Yesterday', 14); \
+        VALUES('Jaws', 'Shark!', '1Yesterday', 10), \
+              ('Maws', 'Worm!', '3Yesterday', 11), \
+              ('Claws', 'Cat!', '4Yesterday', 12), \
+              ('Paws', 'Bear!', '7Yesterday', 13), \
+              ('Gauze', 'Ouch!', '2Yesterday', 14); \
         COMMIT;"
         , function(err) {
           db_cleaner.close();
@@ -54,12 +54,8 @@ describe("Endpoints under /movies", function() {
   describe("GET a subset of movies", function() {
     var movie_request;
 
-    beforeEach(function(done) {
-      movie_request = agent.get('/movies/n/3/o/1/s/title').set('Accept', 'application/json');
-      done();
-    });
-
     it("can get subset of movies in title order", function(done) {
+      movie_request = agent.get('/movies/n/3/o/1/s/title').set('Accept', 'application/json');
       movie_request
         .expect('Content-Type', /application\/json/)
         .expect(200, function(error, result) {
@@ -73,7 +69,26 @@ describe("Endpoints under /movies", function() {
           }
 
           assert.deepEqual(expected_names, actual_names);
-          done();
+          done(error);
+        })
+    })
+
+    it("can get a subset of movies in release_date order", function(done){
+      movie_request = agent.get('/movies/n/3/o/1/s/release_date').set('Accept', 'application/json');
+      movie_request
+        .expect('Content-Type', /application\/json/)
+        .expect(200, function(error, result) {
+          assert.equal(result.body.length, 3);
+          var expected_names = ['Gauze', 'Maws', 'Claws'],
+          actual_names = [];
+
+          for(var index in result.body) {
+            actual_names.push(result.body[index].title);
+          }
+
+          assert.deepEqual(expected_names, actual_names);
+
+          done(error);
         })
     })
   })
