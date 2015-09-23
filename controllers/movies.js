@@ -14,8 +14,9 @@ var Controller = {
 
   paged: function(request, response, next) {
     var limit  = request.params.limit,
-        offset = request.params.offset;
-    new Movie().some(limit, offset,
+        offset = request.params.offset,
+        sort   = request.params.sort;
+    new Movie().some(limit, offset, sort,
                      Controller.send_json.bind(response));
   },
 

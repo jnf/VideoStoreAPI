@@ -47,13 +47,37 @@ describe("Movie", function() {
     })
 
     it("can find some of the movies", function(done) {
-      movie.some(2, 3, function(error, result) {
+      movie.some(2, 3, "id", function(error, result) {
         assert.equal(error, undefined);
         assert(result instanceof Array);
-        assert.equal(result.length, 2); //paws gauze
+        assert.equal(result.length, 2); //claws paws gauze
 
-        assert.equal(result[0].title, 'Paws');
-        assert.equal(result[1].title, 'Gauze');
+        var expected_titles = ['Paws', 'Gauze'],
+            actual_titles = [];
+
+        for(var index in result) {
+          actual_titles.push(result[index].title);
+        }
+
+        assert.deepEqual(expected_titles, actual_titles);
+        done();
+      })
+    })
+
+    it("can put some of the movies in title order", function(done) {
+      movie.some(3, 2, "title", function(error, result) {
+        assert.equal(error, undefined);
+        assert(result instanceof Array);
+        assert.equal(result.length, 3); //paws gauze
+
+        var expected_titles = ['Jaws', 'Maws', 'Paws'],
+            actual_titles = [];
+
+        for(var index in result) {
+          actual_titles.push(result[index].title);
+        }
+
+        assert.deepEqual(expected_titles, actual_titles);
 
         done();
       })

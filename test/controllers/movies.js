@@ -26,7 +26,7 @@ describe("Endpoints under /movies", function() {
     });
   })
 
-  describe("GET /", function() {
+  describe("GET all movies", function() {
     var movie_request;
     
     beforeEach(function(done) {
@@ -51,28 +51,28 @@ describe("Endpoints under /movies", function() {
     })
   })
 
-  describe("GET /movies/n/:limit/o/:offset", function() {
+  describe("GET a subset of movies", function() {
     var movie_request;
 
     beforeEach(function(done) {
-      movie_request = agent.get('/movies/n/2/o/3').set('Accept', 'application/json');
+      movie_request = agent.get('/movies/n/3/o/1/s/title').set('Accept', 'application/json');
       done();
     });
 
-    it("returned two movies", function(done) {
+    it("can get subset of movies in title order", function(done) {
       movie_request
         .expect('Content-Type', /application\/json/)
         .expect(200, function(error, result) {
-          assert.equal(result.body.length, 2);
+          assert.equal(result.body.length, 3);
 
-          var expected_names = ['Paws', 'Gauze'],
-          result_names = [];
+          var expected_names = ['Gauze', 'Jaws', 'Maws'],
+          actual_names = [];
 
           for(var index in result.body) {
-            result_names.push(result.body[index].title);
+            actual_names.push(result.body[index].title);
           }
 
-          assert.deepEqual(result_names, expected_names);
+          assert.deepEqual(expected_names, actual_names);
           done();
         })
     })
