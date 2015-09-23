@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "clear; DB=test mocha --recursive",
+    "test": "clear; DB=test mocha --recursive -R nyan",
     "db:schema": "node ./utils/schema",
     "db:seed": "node ./utils/seed",
     "db:setup": "npm run db:schema; npm run db:seed"
