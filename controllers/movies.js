@@ -12,6 +12,13 @@ var Controller = {
                         Controller.send_json.bind(response));
   },
 
+  paged: function(request, response, next) {
+    var limit  = request.params.limit,
+        offset = request.params.offset;
+    new Movie().some(limit, offset,
+                     Controller.send_json.bind(response));
+  },
+
   send_json: function(error, result) {
     if (error) {
       this.status(500).json(error);

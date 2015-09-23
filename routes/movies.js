@@ -5,6 +5,7 @@ var express = require('express'),
     Controller = require('../controllers/movies');
 
 router.get('/', Controller.index);
+router.get('/n/:limit/o/:offset', Controller.paged);
 router.get('/:title', Controller.show);
 
 module.exports = router;
