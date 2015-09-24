@@ -5,9 +5,7 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "test": "clear; DB=test mocha --recursive -R nyan",
-    "db:schema": "node ./utils/schema",
-    "db:seed": "node ./utils/seed",
-    "db:setup": "npm run db:schema; npm run db:seed"
+    "db:setup": "clear; node ./utils/setup"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
