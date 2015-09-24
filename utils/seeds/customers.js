@@ -1,10 +1,10 @@
 "use strict";
 
-module.exports = function() {
+module.exports = function(callback) {
   var sqlite3 = require('sqlite3').verbose(),
       db_env  = process.env.DB || 'development',
       db      = new sqlite3.Database('db/' + db_env + '.db'),
-      data    = require('./customers.json');
+      data    = require('./customers-' + db_env + '.json');
 
   db.serialize(function() {
     db.exec('BEGIN IMMEDIATE');
@@ -48,7 +48,7 @@ module.exports = function() {
 
     db.exec("COMMIT;", function(error) {
       if (error) throw new Error(error);
-      console.log('Seeded customers!');
+      if (callback) callback();
       db.close(); // ^_^    
     });
   })
