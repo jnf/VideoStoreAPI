@@ -2,28 +2,12 @@ var request = require('supertest'),
     assert  = require('assert'),
     app     = require('../../app'),
     sqlite3 = require('sqlite3').verbose(),
+    seeder  = require('../../utils/seeds/movies'),
     agent   = request.agent(app);
 
 describe("Endpoints under /movies", function() {
   beforeEach(function(done) {
-    db_cleaner = new sqlite3.Database('db/test.db');
-    db_cleaner.serialize(function() {
-      db_cleaner.exec(
-        "BEGIN; \
-        DELETE FROM movies; \
-        INSERT INTO movies(title, overview, release_date, inventory) \
-        VALUES('Jaws', 'Shark!', '1Yesterday', 10), \
-              ('Maws', 'Worm!', '3Yesterday', 11), \
-              ('Claws', 'Cat!', '4Yesterday', 12), \
-              ('Paws', 'Bear!', '7Yesterday', 13), \
-              ('Gauze', 'Ouch!', '2Yesterday', 14); \
-        COMMIT;"
-        , function(err) {
-          db_cleaner.close();
-          done();
-        }
-      );
-    });
+    seeder(done)
   })
 
   describe("GET all movies", function() {
@@ -79,7 +63,7 @@ describe("Endpoints under /movies", function() {
         .expect('Content-Type', /application\/json/)
         .expect(200, function(error, result) {
           assert.equal(result.body.length, 3);
-          var expected_names = ['Gauze', 'Maws', 'Claws'],
+          var expected_names = ['Claws', 'Maws', 'Gauze'],
           actual_names = [];
 
           for(var index in result.body) {

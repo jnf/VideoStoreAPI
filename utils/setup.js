@@ -4,7 +4,7 @@ var movies    = require('./seeds/movies'),
     customers = require('./seeds/customers');
 
 console.log('Seeding movies...');
-movies.call();
+movies(function() { console.log('Seeded movies!')});
 
 console.log('Seeding customers...');
 customers.call();

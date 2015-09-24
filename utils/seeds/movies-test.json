@@ -1,0 +1,32 @@
+[
+  {
+      "title": "Jaws",
+      "overview": "Shark!",
+      "release_date": "1 Yesterday",
+      "inventory": 6
+  },
+  {
+      "title": "Maws",
+      "overview": "Worm!",
+      "release_date": "3 Yesterday",
+      "inventory": 7
+  },
+  {
+      "title": "Claws",
+      "overview": "Cat!",
+      "release_date": "2 Yesterday",
+      "inventory": 6
+  },
+  {
+      "title": "Paws",
+      "overview": "Bear!",
+      "release_date": "5 Yesterday",
+      "inventory": 6
+  },
+  {
+      "title": "Gauze",
+      "overview": "Ouch!",
+      "release_date": "4 Yesterday",
+      "inventory": 6
+  }
+]
