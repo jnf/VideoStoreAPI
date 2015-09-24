@@ -1,31 +1,14 @@
 var assert = require('assert'),
     Movie  = require('../../models/movie'),
+    seeder  = require('../../utils/seeds/movies'),
     sqlite3 = require('sqlite3').verbose();
 
 describe("Movie", function() {
   var movie, db_cleaner
 
   beforeEach(function(done) {
+    seeder(done);
     movie = new Movie();
-
-    db_cleaner = new sqlite3.Database('db/test.db');
-    db_cleaner.serialize(function() {
-      db_cleaner.exec(
-        "BEGIN; \
-        DELETE FROM movies; \
-        INSERT INTO movies(title, overview, release_date, inventory) \
-        VALUES('Jaws', 'Shark!', 'Yesterday', 10), \
-              ('Maws', 'Worm!', 'Yesterday', 11), \
-              ('Claws', 'Cat!', 'Yesterday', 12), \
-              ('Paws', 'Bear!', 'Yesterday', 13), \
-              ('Gauze', 'Ouch!', 'Yesterday', 14); \
-        COMMIT;"
-        , function(err) {
-          db_cleaner.close();
-          done();
-        }
-      );
-    });
   })
 
   it("can be instantiated", function() {
