@@ -20,6 +20,11 @@ var Controller = {
                      Controller.send_json.bind(response));
   },
 
+  create: function(request, response, next) {
+    var params = request.body.movie
+    new Movie().create(params, Controller.send_json.bind(response));
+  },
+
   send_json: function(error, result) {
     if (error) {
       this.status(500).json(error);

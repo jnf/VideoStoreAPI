@@ -99,4 +99,29 @@ describe("Endpoints under /movies", function() {
         });
     })
   })
+
+  describe("POST a new movie", function() {
+    var movie_post;
+
+    beforeEach(function(done) {
+      var data = {
+        title: "RoboJaws",
+        overview: "Jaws is hunted by RoboJaws",
+        release_date: "Tomorrow",
+        inventory: 10
+      }
+
+      movie_post = agent.post('/movies')
+        .set('Accept', 'application/json')
+        .send({movie: data})
+      done()
+    })
+
+    it("can create a new movie", function(done) {
+      movie_post
+        .expect('Content-Type', /application\/json/)
+        .expect({ inserted_id: 6, changed: 1 })
+        .expect(200, done)
+    })
+  })
 })
